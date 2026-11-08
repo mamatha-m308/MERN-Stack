@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+ 
+        <title>my first website</title>
+        <link rel="shortcut icon" href="brd.jpg" type="image/x-icon"></link>
+    </head>
+    <body>
+
+        <h1>This is an h1 heading</h1>
+        <h2>This is an h2 heading</h2>
+        <h3>This is an h3 heading</h3>
+        <h4>This is an h4 heading</h4>
+        <h5>This is an h5 heading</h5>
+        <h6>This is an h6 heading</h6>
+
+
+        <p>Lorem ipsum dolor sit, amet cons
+        adipisicing elit. Dolorum, dolores?
+        Lorem ipsum dolor sit amet ghjghj     <br>
+        Lorem ipsum dolor sit amet consect
+        adipisicing elit. Nihil, quis.</p>
+
+        <hr>
+
+    <!--pre used get the msg has is with line breaks-->
+    <pre> 
+    pre formating Lorem ipsum, hdhuns
+    dolor sit ametcon sectetur consectetur 
+    adipisicing elit. Illo, accusamus!
+
+    Lorem, ipsum dolor sit amet consectetur  
+    adipisicing elit.Saepe, doloremque?
+    </pre>  
+    
+
+
+
+    <a href="https://www.google.com/" target="_black" title="Goes to google">Click me</a>  <br>
+    <!--target means it will open in new tab  
+    and title means when we mouse overa click me button it will shows some additional info -->
+
+
+    <!--To add another file link-->
+    <a href="lyrics.html">song lyrics</a>         <br>
+
+
+    <!--Image-->
+    <img src="brd.jpg" alt="This is bird" height="200px" width="200px"></img>    <br>
+
+    <!--click on a image will take u to the another page-->
+    <h3>Click on the image to go to google</h3>
+    <a href="https://www.google.com/"  target="_black" title="Goes to google">
+        <img src="brd.jpg" alt="This is bird" height="200px" width="200px"></img>
+    </a> <br>
+
+
+    <!--Audio-->
+    <audio src="song1.mp3" controls></audio> <br>
+    
+      <!--Vedio-->
+    <video src="vedio.mp4" controls height="300px" width="400px"></video>
+
+
+  <!--Text formating in html-->
+  <p>normal text</p>
+  <p>this is <b>Bold</b>Text</p>
+  <p>this is <i>Italic</i>Text</p>
+  <p>this is <u>Underlined</u>Text</p>
+  <p>this is <big>Big</big>Text</p>
+  <p>this is <small>small</small>Text</p>
+  <p>this is <sub>subscript</sub>Text</p>
+  <p>this is <sup>superscript</sup>Text</p>
+  <p>this is <tt>Monospaced</tt>Text</p>
+  <p>this is <mark>normal</mark>Text</p>
+
+
+  <!--Group Together in HTML(span,div) -->
+  <h1> <span style="background-color: aquamarine;">This is span</span></h1>
+  <p> <span style="background-color: aquamarine;">
+        Lorem ipsum dolor sit amet consecteturPraesentium vrem ipsum dolor
+         sit amet consecteturPraesentium, animi,rem ipsum dolor sit  animi </span> </p>
+
+<h1> <div style="background-color: aquamarine;">This is div</div></h1>
+  <p> <div style="background-color: aquamarine;">
+        Lorem ipsum dolor sit amet consecteturPraesentium, animi
+        sit amet consecteturPraesentium, animi,rem ipsum dolor sit  animi </div> </p>
+
+
+<!--List in HTML-->
+
+<ul> <!--Unorder List-->
+    <li>milk</li>
+    <li>sugar</li>
+    <li>eggs</li>
+    <li>bread</li>
+</ul>
+
+
+<ol> <!--order List-->
+    <li>eat breakfast</li>
+    <li>goto class</li>
+    <li>walk</li>
+    <li>dinner</li>
+</ol>
+
+
+<ul> <!--Descriptive List-->
+    <dt>dog</dt>            <!-- de-descriptive term and dd-descriptive defination -->
+    <dd>Its an Animal</dd>
+
+    <dt>Orange</dt>
+    <dd>Its a Fruite</dd>
+   
+</ul>
+
+
+<!--Table in HTML-->
+<table border="1">
+    <tr> 
+    <th>Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    </tr>
+
+    <tr>
+        <td>closed</td>
+        <td>9 to 5</td>
+        <td>9 to 5</td>
+    </tr>
+</table><br>
+
+<!--Botton in HTML-->
+ <a href="https://www.google.com/">
+    <button style="font-size: 20px;">click me</button>
+ </a>
+    
+    </body>
+</html>
